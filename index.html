@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/style.css">
+    <title>Portwind Tailwind Portfolio</title>
+</head>
+<body class="font-nunito">
+    <!-- Intro Section -->
+    <div class="h-1/2 bg-gradient-to-t from-indigo-200 lg:h-screen">
+        <!-- Navbar -->
+        <nav class="w-full fixed top-0 bg-white">
+            <div class="container mx-auto py-5 flex items-center justify-between">
+                <!-- Logo -->
+                <div class="flex items-center gap-2">
+                    <img class="w-8" src="./dist/images/logo.png" alt="Logo">
+                    <span class="text-2xl font-bold text-indigo-900">Portwind</span>
+                </div>
+                <!-- Menu Items -->
+                <ul class="hidden space-x-10 text-sm text-gray-600 uppercase md:flex">
+                    <li class="hover:text-gray-500"><a href="#">Home</a></li>
+                    <li class="hover:text-gray-500"><a href="#">About Me</a></li>
+                    <li class="hover:text-gray-500"><a href="#">Services</a></li>
+                    <li class="hover:text-gray-500"><a href="#">Works</a></li>
+                    <li class="hover:text-gray-500"><a href="#">Contact</a></li>
+                </ul>
+                <img class="w-5 cursor-pointer hidden md:block" src="./dist/images/moon.png" alt="Moon Icon">
+                <!-- Hamburger Icon -->
+                <div id="hamburger" class="space-y-1 cursor-pointer z-20 md:hidden">
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                </div>
+                <!-- Mobile Menu Items -->
+                <ul id="menu" class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Works</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Intro Content -->
+        <div>
+
+        </div>
+    </div>
+
+    <!-- Javascript File Here -->
+    <script src="./dist/js/main.js"></script>
+</body>
+</html>
